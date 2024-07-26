@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <style>
+        @font-face { font-family: fonty; src: url('KingthingsExtortion-YMAa.ttf'); } 
+
+        .coolfont {
+            font-family: fonty;
+            font-size: 500px;
+        }
+
+        body {
+            background-color: black;
+            font-family: Arial;
+        }
+
+        .whiteText {
+            color: white;
+        }
+
+        #splashscreen {
+            position:absolute;
+            top:0;
+            left:0;
+            bottom:0;
+            width:100%;
+            background-color:black;
+        }
+
+        a:visited, a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .enter_link {
+            font-size: 50px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: text-shadow 1s ease;
+        }
+
+        .zindex {
+            z-index: 999;
+        }
+
+        .center {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin-top: -150px;
+        }
+
+        .icon {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 10px; /* Space between icons */
+            margin-left: 100px;
+            -webkit-transition-property: all; 
+            -webkit-transition-duration: 0.3s; 
+            -webkit-transition-timing-function: ease; 
+        }
+
+        .icon2 {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 10px; /* Space between icons */
+            margin-left: 100px;
+        }
+
+        .icons-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 5px;
+            margin-left: 20px; /* Space between text and icons */
+        }
+
+
+        .pp {
+            display: flex;
+            align-items: center;
+            font-size: 500px;
+            margin-left: -500;
+            margin-top: 10px;
+            animation-name: flyInFromRight;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            transition: text-shadow 1s ease;
+            margin-bottom: 0px;
+        }
+
+        .ppp {
+            color: white;
+            font-size: 50px;
+            margin: 0;
+            float: right;
+            margin-top: -170px;
+            transition: text-shadow 1s ease;
+            z-index: 999;
+            text-align: center;
+        }
+
+        .pppp{
+          color: white;
+          font-size: 50px;
+          margin: 0;
+          float: right;
+          margin-top: -100px;
+          transition: text-shadow 1s ease;
+        }
+
+        .pp:hover {
+          text-shadow: 0px 0px 20px white; 
+        }
+
+        .icon:hover {
+          animation-name: easeInShadow;
+          animation-duration: 100s;
+          transform: scale(110%);
+          -webkit-transition-property: all; 
+          -webkit-transition-duration: 0.3s; 
+          -webkit-transition-timing-function: ease; 
+        }
+
+
+        @keyframes easeInShadow{  
+          0% {
+            filter: drop-shadow(0 0 0px #ffffff);   
+          }
+
+          1% {
+            filter: drop-shadow(0 0 10px #ffffff);   
+          }
+
+          100%{
+            filter: drop-shadow(0 0 10px #ffffff);   
+          }
+        }
+
+        
+        @keyframes flyInFromRight{  
+          0% {
+            margin-left: 9999;
+          }
+
+          100%{
+            margin-left: -500;
+          }
+        }
+
+
+        .ppp:hover {
+          text-shadow: 0px 0px 20px white; 
+        }
+
+        .enter_link:hover {
+          text-shadow: 0px 0px 20px white; 
+        }
+
+        .pppp:hover {
+          text-shadow: 0px 0px 20px white; 
+        }
+
+
+      
+
+    </style>
+</head>
+<body>
+    <div id="splashscreen">
+        <a href="#" class="enter_link zindex">Click to Enter</a>
+    </div>
+
+    <div class="center">
+        <div class="pp" style="color: white;">
+            <span>eskol</span>
+            <div class="icons-container">
+                <a href="https://github.com/eskolzz" target="_blank">
+                    <img class="icon" src="https://r2.e-z.host/b565b44f-3d9d-454a-af6e-8cab3630c610/tjf0vnhx.png">
+                <a href="https://youtube.com/@eskolzz" target="_blank">
+                    <img class="icon" src="https://r2.e-z.host/b565b44f-3d9d-454a-af6e-8cab3630c610/r1mj9sel.png">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <p class="ppp">
+      certified Cedar Creek Nuclear Power Plant movement god
+      <br>
+      ⠀     ⠀      ⠀gone plat on several occasions ask literally anybody
+    </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <style>
+    .snowflake {
+      color: white;
+      font-size: 0.5em;
+      font-family: Arial, sans-serif;
+      z-index: 0;
+    }
+    
+    .snowflake,.snowflake .inner{animation-iteration-count:infinite;animation-play-state:running}@keyframes snowflakes-fall{0%{transform:translateY(0)}100%{transform:translateY(110vh)}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;user-select:none;cursor:default;animation-name:snowflakes-shake;animation-duration:3s;animation-timing-function:ease-in-out}.snowflake .inner{animation-duration:10s;animation-name:snowflakes-fall;animation-timing-function:linear}.snowflake:nth-of-type(0){left:1%;animation-delay:0s}.snowflake:nth-of-type(0) .inner{animation-delay:0s}.snowflake:first-of-type{left:10%;animation-delay:1s}.snowflake:first-of-type .inner,.snowflake:nth-of-type(8) .inner{animation-delay:1s}.snowflake:nth-of-type(2){left:20%;animation-delay:.5s}.snowflake:nth-of-type(2) .inner,.snowflake:nth-of-type(6) .inner{animation-delay:6s}.snowflake:nth-of-type(3){left:30%;animation-delay:2s}.snowflake:nth-of-type(11) .inner,.snowflake:nth-of-type(3) .inner{animation-delay:4s}.snowflake:nth-of-type(4){left:40%;animation-delay:2s}.snowflake:nth-of-type(10) .inner,.snowflake:nth-of-type(4) .inner{animation-delay:2s}.snowflake:nth-of-type(5){left:50%;animation-delay:3s}.snowflake:nth-of-type(5) .inner{animation-delay:8s}.snowflake:nth-of-type(6){left:60%;animation-delay:2s}.snowflake:nth-of-type(7){left:70%;animation-delay:1s}.snowflake:nth-of-type(7) .inner{animation-delay:2.5s}.snowflake:nth-of-type(8){left:80%;animation-delay:0s}.snowflake:nth-of-type(9){left:90%;animation-delay:1.5s}.snowflake:nth-of-type(9) .inner{animation-delay:3s}.snowflake:nth-of-type(10){left:25%;animation-delay:0s}.snowflake:nth-of-type(11){left:65%;animation-delay:2.5s}
+    </style>
+    <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+          <div class="snowflake">
+            <div class="inner">⚪</div>
+          </div>
+    </div>
+
+
+
+
+    <script language=javascript>
+         $('.enter_link').click(function() { 
+        $(this).parent().fadeOut(500);});
+    </script>
+
+    <script language=javascript>
+        var rev = "fwd";
+        function titlebar(val){
+            var msg  = "imoverherestrokingmydickigotlotiononmydickimhornyasfuck";
+            var res = " ";
+            var speed = 500;
+            var pos = val;
+            msg = "   |-"+msg+"-|";
+            var le = msg.length;
+            if(rev == "fwd"){
+                if(pos < le){
+                    pos = pos+1;
+                    scroll = msg.substr(0,pos);
+                    document.title = scroll;
+                    timer = window.setTimeout("titlebar("+pos+")",speed);
+                }
+                else {
+                    rev = "bwd";
+                    timer = window.setTimeout("titlebar("+pos+")",speed);
+                }
+            }
+            else {
+                if(pos > 0) {
+                    pos = pos-1;
+                    var ale = le-pos;
+                    scrol = msg.substr(ale,le);
+                    document.title = scrol;
+                    timer = window.setTimeout("titlebar("+pos+")",speed);
+                }
+                else {
+                    rev = "fwd";
+                    timer = window.setTimeout("titlebar("+pos+")",speed);
+                }
+            }
+        }
+        titlebar(0);
+    </script>
+            
+
+  </body>
+</html>
